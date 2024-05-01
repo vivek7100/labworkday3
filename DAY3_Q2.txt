@@ -1,0 +1,27 @@
+//area of rectangle = length × width//
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    float length, width, area;
+
+    printf("Enter the length of a rectangle: ");
+    scanf("%f", &length);
+
+    printf("Enter the width of a rectangle: ");
+    scanf("%f", &width);
+
+    area = length * width;
+    printf("The area of the rectangle is: %.2f\n", area);
+
+    return 0;
+}
+
+
+
+Enter the length of a rectangle: 20
+Enter the width of a rectangle: 20
+The area of the rectangle is: 400.00
